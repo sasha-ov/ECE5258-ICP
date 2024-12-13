@@ -125,4 +125,3 @@ cd ECE5258-ICP
 ## 🙏 Acknowledgments
 - Project presentation video: [YouTube Link](https://youtu.be/dt7J8pqwO7I)
 - Florida Institute of Technology
-- Contributors: Alesandra Olinde Vergara
