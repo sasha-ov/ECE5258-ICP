@@ -80,9 +80,9 @@ This project evaluates the following models:
 - **F1-Score:** 0.92 (macro avg)
 
 #### LSTM Classification Report
-- **Precision:** 0.93 (macro avg)
+- **Precision:** 0.92 (macro avg)
 - **Recall:** 0.93 (macro avg)
-- **F1-Score:** 0.93 (macro avg)
+- **F1-Score:** 0.92 (macro avg)
 
 #### TCN Classification Report
 - **Precision:** 0.93 (macro avg)
