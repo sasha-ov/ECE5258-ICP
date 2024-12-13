@@ -106,9 +106,6 @@ cd ECE5258-ICP
 ### 1. Dataset Preparation
 - Download the HAR dataset from the [UCI Archive](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones).
 - Place the dataset in the `data/` folder.
-
-```
-
 ---
 
 ## 📜 References
