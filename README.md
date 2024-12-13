@@ -6,7 +6,7 @@ This repository contains the implementation of a project focused on **Human Acti
 ## ❓ Problem of Interest
 Human Activity Recognition (HAR) involves analyzing sensor data to determine an individual’s physical activity, such as walking 🚶, sitting 🪑, or standing 🧍.
 
-- **🌟 Applications:**
+- ** Applications:**
   - Healthcare: Tracking patient mobility.
   - Fitness Apps: Providing personalized insights.
 - **Objective:** Improve classification accuracy for challenging activities like sitting and standing.
