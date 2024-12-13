@@ -3,6 +3,16 @@
 This repository contains the implementation of a project focused on **Human Activity Recognition (HAR)** using various deep learning architectures, including **CNNs, LSTMs**, and **Temporal Convolutional Networks (TCNs)**. The project aims to explore whether Neural Networks can better classify static activities such as **sitting** and **standing**, which are particularly challenging for machine learning models.
 
 ---
+## ❓ Problem of Interest
+Human Activity Recognition (HAR) involves analyzing sensor data to determine an individual’s physical activity, such as walking 🚶, sitting 🪑, or standing 🧍.
+
+- **🌟 Applications:**
+  - Healthcare: Tracking patient mobility.
+  - Fitness Apps: Providing personalized insights.
+- **Objective:** Improve classification accuracy for challenging activities like sitting and standing.
+
+
+---
 
 ## 📂 Dataset
 The dataset used in this project is the **Human Activity Recognition Using Smartphones Dataset**, which includes:
@@ -24,7 +34,7 @@ The dataset used in this project is the **Human Activity Recognition Using Smart
 ---
 ## ⏳ Time-Series Data Processing with Neural Networks
 
-Neural Networks are particularly suited for time-series data due to their ability to extract patterns over time. Each architecture brings unique advantages:
+Neural Networks are particularly suited for time-series data because they can extract patterns over time. Each architecture brings unique advantages:
 
 - **Convolutional Neural Networks (CNNs):** Efficiently extract local temporal patterns using 1D convolutions and pooling layers. Ideal for short-term dependencies.
 - **Long Short-Term Memory (LSTMs):** Use gated mechanisms to store long-term dependencies and address vanishing gradient problems. Suitable for both short- and long-term temporal relationships.
@@ -75,19 +85,17 @@ This project evaluates the following models:
 
 ### Confusion Matrices and Classification Reports
 #### CNN Classification Report
-- **Precision:** 0.92 (macro avg)
-- **Recall:** 0.92 (macro avg)
-- **F1-Score:** 0.92 (macro avg)
+- **Strengths:** High recall for dynamic activities like **walking (99%)** and **laying (100%)**.
+- **Weaknesses:** Misclassification between sitting and standing, with F1-scores around **0.82**.
 
 #### LSTM Classification Report
-- **Precision:** 0.92 (macro avg)
-- **Recall:** 0.93 (macro avg)
-- **F1-Score:** 0.92 (macro avg)
+- **Strengths:** Slightly better recall for sitting and standing than CNN, with improved F1-scores for static activities.
+- **Dynamic Activities:** Near-perfect accuracy for walking and laying.
 
 #### TCN Classification Report
-- **Precision:** 0.93 (macro avg)
-- **Recall:** 0.93 (macro avg)
-- **F1-Score:** 0.93 (macro avg)
+- **Strengths:** Best performance across all activities, including improved recall for static ones like sitting and standing.
+- **Dynamic Activities:** Near-perfect classification.
+- **Overall Accuracy:** **93.01%**, with F1-scores of **0.80** for sitting and **0.84** for standing.
 
 ---
 
